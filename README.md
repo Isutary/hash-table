@@ -9,4 +9,6 @@ Interface consists of following functions:
  - find -- takes one parameter(key) and returns value with that key from the table if it exists, otherwise returns undefined,
  - remove -- takes one parameter(key) and removes element with that key from table, returns true if element is found and deleted, false otherwise,
  - clear -- clears the table
- - iterator is defined and table is iterable
+ - iterator is defined and table is iterable, iterator returns object { key: key, value: value }
+ 
+ example.js contains simple example of usage.
