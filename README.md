@@ -11,4 +11,4 @@ Interface consists of following functions:
  - clear -- clears the table
  - iterator is defined and table is iterable, iterator returns object { key: key, value: value }
  
- example.js contains simple example of usage.
+ example.js contains simple usage.
